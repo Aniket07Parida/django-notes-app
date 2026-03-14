@@ -3,8 +3,7 @@ version: "3.8"
 services:
   nginx:
     build: ./nginx
-    image: 
-aniketparida158088/django-notes-app
+    image: aniketparida158088/django-notes-app:latest
     container_name: "nginx_cont"
     ports:
       - "80:80"
